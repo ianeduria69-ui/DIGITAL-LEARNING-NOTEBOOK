@@ -1,0 +1,123 @@
+/* notebook-theme.css — the "notebook paper" feel: lines, margin, hand-drawn borders. */
+
+/* Ruled notebook paper */
+body {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 31px,
+    var(--rule) 31px,
+    var(--rule) 32px
+  );
+  background-attachment: local;
+}
+
+/* Red margin line (only on wider screens) */
+@media (min-width: 700px) {
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 44px;
+    width: 2px;
+    background: var(--margin);
+    z-index: 0;
+    pointer-events: none;
+  }
+}
+
+.app-header {
+  background: var(--paper);
+  border-bottom: 3px solid var(--ink);
+  border-radius: 0 0 18px 8px / 0 0 8px 14px;
+  box-shadow: 0 3px 0 var(--rule);
+}
+
+.home-link {
+  color: var(--ink-dark);
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.storage-warning {
+  color: #fff;
+  background: var(--accent);
+  padding: 0.2rem 0.7rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+}
+
+.app-footer { color: var(--ink); opacity: 0.8; }
+
+/* Hand-drawn wobbly border: unequal corner radii make a straight box look hand-drawn */
+.card,
+.lesson-row,
+.lesson-section,
+.btn,
+.progress {
+  border: 3px solid var(--ink);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  background: #fff;
+}
+
+.card {
+  display: block;
+  padding: 1.1rem 1.2rem;
+  text-decoration: none;
+  color: var(--ink);
+  box-shadow: 4px 5px 0 var(--shadow);
+  transition: transform 0.15s ease;
+}
+.card:hover, .card:focus-visible { transform: translateY(-3px) rotate(-0.5deg); }
+
+.subject-icon { font-size: 2rem; display: block; margin-bottom: 0.2rem; }
+.subject-desc { margin-bottom: 0.4em; }
+.subject-meta { font-size: 0.9rem; opacity: 0.85; margin: 0; }
+
+.intro { font-size: 1.1rem; }
+
+.lesson-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.8rem 1.1rem;
+  text-decoration: none;
+  color: var(--ink);
+  box-shadow: 3px 4px 0 var(--shadow);
+}
+.lesson-row:hover, .lesson-row:focus-visible { background: #f1f6ff; }
+.lesson-title { flex: 1; font-size: 1.2rem; color: var(--ink-dark); }
+.lesson-status { font-size: 0.9rem; }
+.lesson-row.is-done .lesson-status { color: var(--ok); font-weight: bold; }
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.1rem;
+  color: var(--ink-dark);
+  text-decoration: none;
+  background: #fff;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.btn:hover { background: #f1f6ff; }
+
+.btn-done.is-done {
+  background: var(--ok);
+  border-color: var(--ok);
+  color: #fff;
+}
+
+.progress {
+  height: 22px;
+  padding: 2px;
+  overflow: hidden;
+  margin: 0.4rem 0 0.2rem;
+}
+.progress-bar {
+  height: 100%;
+  background: var(--ink);
+  border-radius: 10px;
+  min-width: 0;
+  transition: width 0.3s ease;
+}

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Hand-drawn comparison of a thick short wire and a thin long wire, plus the resistor symbol and an ohmmeter">
+<title>Hand-drawn comparison of a thick short wire and a thin long wire, plus the resistor symbol and an ohmmeter</title>
+<defs>
+  <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves="2" seed="4" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9 z" fill="#2347c5"/></marker>
+  <marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto"><path d="M1,1 L9,5 L1,9 z" fill="#d9480f"/></marker>
+  <style>
+    text { font-family: 'Patrick Hand','Segoe Print','Comic Sans MS','Bradley Hand',cursive; fill: #2347c5; font-size: 20px; }
+    .h { fill: #0f2a6b; font-weight: bold; }
+    .o { fill: #d9480f; font-weight: bold; }
+  </style>
+</defs>
+<rect width="800" height="600" fill="#fffef9"/>
+<g filter="url(#rough)" fill="none" stroke="#0f2a6b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="12" y="12" width="776" height="576" rx="16"/>
+  <path d="M250,72 Q400,84 550,70" stroke-width="3"/>
+</g>
+<text class="h" x="400" y="56" text-anchor="middle" style="font-size:38px">RESISTANCE (R)</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"><path d="M410,92 V392"/></g>
+<g filter="url(#rough)"><circle cx="40" cy="102" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="40" y="109" text-anchor="middle" class="h" style="font-size:19px">1</text>
+<text x="66" y="109" text-anchor="start" class="h" style="font-size:18px">Thick and short wire: LOW resistance</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" ><rect x="50" y="120" width="330" height="60" rx="10"/></g>
+<path d="M75,135 L340,135" fill="none" stroke="#2347c5" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<path d="M75,150 L340,150" fill="none" stroke="#2347c5" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<path d="M75,165 L340,165" fill="none" stroke="#2347c5" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="215" y="203" text-anchor="middle" class="" style="font-size:17px">(many charges get through)</text>
+<text x="215" y="232" text-anchor="middle" class="h" style="font-size:18px">Thin and long wire: HIGH resistance</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" ><rect x="50" y="244" width="330" height="22" rx="8"/></g>
+<path d="M75,255 L340,255" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="215" y="292" text-anchor="middle" class="" style="font-size:17px">(few charges get through)</text>
+<text x="215" y="340" text-anchor="middle" class="o" style="font-size:17px">Hotter wire = more resistance, too</text>
+<g filter="url(#rough)"><circle cx="470" cy="118" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="470" y="125" text-anchor="middle" class="h" style="font-size:19px">2</text>
+<text x="492" y="125" text-anchor="start" class="h" style="font-size:20px">Resistor symbol</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" ><path d="M430,170 H480"/><path d="M480,170 L497,140 L521,200 L545,140 L569,200 L593,140 L617,200 L641,140 L658,170 H700"/></g>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" ><circle cx="570" cy="300" r="30"/><path d="M540,300 H470 V170"/><path d="M600,300 H690 V170"/></g>
+<circle cx="470" cy="170" r="6" fill="#2347c5"/>
+<circle cx="690" cy="170" r="6" fill="#2347c5"/>
+<text x="570" y="311" text-anchor="middle" class="h" style="font-size:32px">Ω</text>
+<g filter="url(#rough)"><circle cx="450" cy="360" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="450" y="367" text-anchor="middle" class="h" style="font-size:19px">3</text>
+<text x="472" y="367" text-anchor="start" class="h" style="font-size:20px">Ohmmeter</text>
+<text x="440" y="395" text-anchor="start" class="" style="font-size:18px">(circuit power OFF)</text>
+<g filter="url(#rough)" fill="none" stroke="#0f2a6b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" ><rect x="30" y="425" width="740" height="150" rx="14"/></g>
+<g filter="url(#rough)"><circle cx="60" cy="456" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="463" text-anchor="middle" class="h" style="font-size:19px">1</text>
+<text x="86" y="462" text-anchor="start" class="" style="font-size:20px">Thin or long wire = HIGH resistance. Thick or short wire = LOW.</text>
+<g filter="url(#rough)"><circle cx="60" cy="490" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="497" text-anchor="middle" class="h" style="font-size:19px">2</text>
+<text x="86" y="496" text-anchor="start" class="" style="font-size:20px">The zigzag is the symbol of a resistor. It limits the current.</text>
+<g filter="url(#rough)"><circle cx="60" cy="524" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="531" text-anchor="middle" class="h" style="font-size:19px">3</text>
+<text x="86" y="530" text-anchor="start" class="" style="font-size:20px">An ohmmeter measures R. Switch the circuit power OFF first.</text>
+<text x="46" y="564" text-anchor="start" class="o" style="font-size:20px">Remember: more resistance means less current.   Unit: ohm (Ω).</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Hand-drawn Ohm's Law triangle with V on top, I and R at the bottom, and three formulas">
+<title>Hand-drawn Ohm's Law triangle with V on top, I and R at the bottom, and three formulas</title>
+<defs>
+  <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves="2" seed="4" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9 z" fill="#2347c5"/></marker>
+  <marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto"><path d="M1,1 L9,5 L1,9 z" fill="#d9480f"/></marker>
+  <style>
+    text { font-family: 'Patrick Hand','Segoe Print','Comic Sans MS','Bradley Hand',cursive; fill: #2347c5; font-size: 20px; }
+    .h { fill: #0f2a6b; font-weight: bold; }
+    .o { fill: #d9480f; font-weight: bold; }
+  </style>
+</defs>
+<rect width="800" height="600" fill="#fffef9"/>
+<g filter="url(#rough)" fill="none" stroke="#0f2a6b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="12" y="12" width="776" height="576" rx="16"/>
+  <path d="M250,72 Q400,84 550,70" stroke-width="3"/>
+</g>
+<text class="h" x="400" y="56" text-anchor="middle" style="font-size:38px">OHM'S LAW</text>
+<text x="190" y="96" text-anchor="middle" class="" style="font-size:17px">Cover the one you want to find</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" ><path d="M190,110 L60,330 L320,330 Z"/><path d="M118,235 H262"/><path d="M190,235 V330"/></g>
+<text x="190" y="205" text-anchor="middle" class="h" style="font-size:54px">V</text>
+<text x="134" y="300" text-anchor="middle" class="h" style="font-size:54px">I</text>
+<text x="246" y="300" text-anchor="middle" class="h" style="font-size:54px">R</text>
+<text x="190" y="372" text-anchor="middle" class="" style="font-size:17px">V = volts  ·  I = amperes  ·  R = ohms (Ω)</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 6"><rect x="375" y="100" width="390" height="76" rx="12"/></g>
+<g filter="url(#rough)"><circle cx="402" cy="138" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="402" y="145" text-anchor="middle" class="h" style="font-size:19px">1</text>
+<text x="436" y="148" text-anchor="start" class="h" style="font-size:38px">V = I × R</text>
+<text x="600" y="148" text-anchor="start" class="" style="font-size:18px">(find voltage)</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 6"><rect x="375" y="185" width="390" height="76" rx="12"/></g>
+<g filter="url(#rough)"><circle cx="402" cy="223" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="402" y="230" text-anchor="middle" class="h" style="font-size:19px">2</text>
+<text x="436" y="233" text-anchor="start" class="h" style="font-size:38px">I = V ÷ R</text>
+<text x="600" y="233" text-anchor="start" class="" style="font-size:18px">(find current)</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 6"><rect x="375" y="270" width="390" height="76" rx="12"/></g>
+<g filter="url(#rough)"><circle cx="402" cy="308" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="402" y="315" text-anchor="middle" class="h" style="font-size:19px">3</text>
+<text x="436" y="318" text-anchor="start" class="h" style="font-size:38px">R = V ÷ I</text>
+<text x="600" y="318" text-anchor="start" class="" style="font-size:18px">(find resistance)</text>
+<g filter="url(#rough)" fill="none" stroke="#0f2a6b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" ><rect x="30" y="425" width="740" height="150" rx="14"/></g>
+<g filter="url(#rough)"><circle cx="60" cy="456" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="463" text-anchor="middle" class="h" style="font-size:19px">1</text>
+<text x="86" y="462" text-anchor="start" class="" style="font-size:20px">Cover V → I × R : voltage = current × resistance</text>
+<g filter="url(#rough)"><circle cx="60" cy="490" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="497" text-anchor="middle" class="h" style="font-size:19px">2</text>
+<text x="86" y="496" text-anchor="start" class="" style="font-size:20px">Cover I → V ÷ R : current = voltage ÷ resistance</text>
+<g filter="url(#rough)"><circle cx="60" cy="524" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="531" text-anchor="middle" class="h" style="font-size:19px">3</text>
+<text x="86" y="530" text-anchor="start" class="" style="font-size:20px">Cover R → V ÷ I : resistance = voltage ÷ current</text>
+<text x="46" y="564" text-anchor="start" class="o" style="font-size:20px">Example: 9 V ÷ 3 Ω = 3 A</text>
+</svg>

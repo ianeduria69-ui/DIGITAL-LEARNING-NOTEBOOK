@@ -1,0 +1,58 @@
+/* base.css — basic colors, fonts, and resets. The "foundation" of the house. */
+
+:root {
+  --ink: #2347c5;        /* blue handwriting */
+  --ink-dark: #0f2a6b;   /* dark blue headings */
+  --paper: #fffef9;      /* paper white */
+  --rule: #d6e4ff;       /* light blue notebook lines */
+  --margin: #f2a3a3;     /* red margin line */
+  --accent: #d9480f;     /* orange, used for highlights */
+  --ok: #1c7c54;        /* green, for completed */
+  --shadow: rgba(15, 42, 107, 0.18);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { font-size: 18px; }
+
+body {
+  margin: 0;
+  font-family: "Patrick Hand", "Segoe Print", "Comic Sans MS", "Bradley Hand", cursive;
+  color: var(--ink);
+  line-height: 1.55;
+  background-color: var(--paper);
+}
+
+h1, h2, h3 {
+  color: var(--ink-dark);
+  margin: 0 0 0.4em;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2rem; letter-spacing: 0.02em; }
+h2 { font-size: 1.4rem; }
+p  { margin: 0 0 0.8em; }
+
+a { color: var(--ink); }
+
+button, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+[hidden] { display: none !important; }
+
+/* Hidden from the eye but still usable with keyboard and screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

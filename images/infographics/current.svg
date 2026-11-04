@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Hand-drawn picture of charges flowing in a wire, conventional current versus electron flow, and an ammeter in series">
+<title>Hand-drawn picture of charges flowing in a wire, conventional current versus electron flow, and an ammeter in series</title>
+<defs>
+  <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves="2" seed="4" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9 z" fill="#2347c5"/></marker>
+  <marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto"><path d="M1,1 L9,5 L1,9 z" fill="#d9480f"/></marker>
+  <style>
+    text { font-family: 'Patrick Hand','Segoe Print','Comic Sans MS','Bradley Hand',cursive; fill: #2347c5; font-size: 20px; }
+    .h { fill: #0f2a6b; font-weight: bold; }
+    .o { fill: #d9480f; font-weight: bold; }
+  </style>
+</defs>
+<rect width="800" height="600" fill="#fffef9"/>
+<g filter="url(#rough)" fill="none" stroke="#0f2a6b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="12" y="12" width="776" height="576" rx="16"/>
+  <path d="M250,72 Q400,84 550,70" stroke-width="3"/>
+</g>
+<text class="h" x="400" y="56" text-anchor="middle" style="font-size:38px">CURRENT (I)</text>
+<g filter="url(#rough)"><circle cx="252" cy="102" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="252" y="109" text-anchor="middle" class="h" style="font-size:19px">2</text>
+<text x="275" y="109" text-anchor="start" class="h" style="font-size:19px">Conventional current (+ → −)</text>
+<path d="M250,122 L550,122" fill="none" stroke="#d9480f" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<g filter="url(#rough)"><circle cx="92" cy="160" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="92" y="167" text-anchor="middle" class="h" style="font-size:19px">1</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" ><rect x="120" y="132" width="560" height="56" rx="28"/></g>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" ><circle cx="190" cy="160" r="12"/></g>
+<text x="190" y="167" text-anchor="middle" class="h" style="font-size:20px">−</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" ><circle cx="270" cy="160" r="12"/></g>
+<text x="270" y="167" text-anchor="middle" class="h" style="font-size:20px">−</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" ><circle cx="350" cy="160" r="12"/></g>
+<text x="350" y="167" text-anchor="middle" class="h" style="font-size:20px">−</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" ><circle cx="430" cy="160" r="12"/></g>
+<text x="430" y="167" text-anchor="middle" class="h" style="font-size:20px">−</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" ><circle cx="510" cy="160" r="12"/></g>
+<text x="510" y="167" text-anchor="middle" class="h" style="font-size:20px">−</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" ><circle cx="590" cy="160" r="12"/></g>
+<text x="590" y="167" text-anchor="middle" class="h" style="font-size:20px">−</text>
+<path d="M550,212 L250,212" fill="none" stroke="#2347c5" stroke-width="3" stroke-linecap="round" marker-end="url(#ab)"/>
+<text x="400" y="240" text-anchor="middle" class="" style="font-size:18px">Electrons really move the other way (− → +)</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 8"><path d="M40,250 H760"/></g>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" ><path d="M260,338 V300 H388"/><path d="M432,300 H560 V322 L578,332 L542,345 L578,358 L542,371 L560,381 V405 H260 V360"/></g>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" ><path d="M235,338 H285"/><path d="M245,360 H275"/></g>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" ><circle cx="410" cy="300" r="22"/></g>
+<text x="410" y="309" text-anchor="middle" class="h" style="font-size:24px">A</text>
+<path d="M295,300 L355,300" fill="none" stroke="#d9480f" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M500,405 L400,405" fill="none" stroke="#d9480f" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M260,398 L260,368" fill="none" stroke="#d9480f" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<g filter="url(#rough)"><circle cx="268" cy="265" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="268" y="272" text-anchor="middle" class="h" style="font-size:19px">3</text>
+<text x="292" y="272" text-anchor="start" class="h" style="font-size:18px">Ammeter — connected in series</text>
+<text x="410" y="356" text-anchor="middle" class="" style="font-size:17px">Same current everywhere</text>
+<text x="410" y="379" text-anchor="middle" class="" style="font-size:17px">in a series loop</text>
+<g filter="url(#rough)" fill="none" stroke="#0f2a6b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" ><rect x="30" y="425" width="740" height="150" rx="14"/></g>
+<g filter="url(#rough)"><circle cx="60" cy="456" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="463" text-anchor="middle" class="h" style="font-size:19px">1</text>
+<text x="86" y="462" text-anchor="start" class="" style="font-size:20px">Current = how many charges flow past a point each second.</text>
+<g filter="url(#rough)"><circle cx="60" cy="490" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="497" text-anchor="middle" class="h" style="font-size:19px">2</text>
+<text x="86" y="496" text-anchor="start" class="" style="font-size:20px">Conventional current is drawn + to −. Electrons move − to +.</text>
+<g filter="url(#rough)"><circle cx="60" cy="524" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="531" text-anchor="middle" class="h" style="font-size:19px">3</text>
+<text x="86" y="530" text-anchor="start" class="" style="font-size:20px">The ammeter goes in series (in the path), never across a battery.</text>
+<text x="46" y="564" text-anchor="start" class="o" style="font-size:20px">Unit: ampere (A).   1 A = 1 coulomb per second.</text>
+</svg>

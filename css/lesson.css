@@ -1,0 +1,125 @@
+/* lesson.css — styles used only on the lesson page. */
+
+.lesson-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1rem;
+  justify-content: space-between;
+}
+.lesson-header h1 { margin: 0; }
+
+.lesson-section {
+  padding: 1rem 1.2rem 1.2rem;
+  box-shadow: 4px 5px 0 var(--shadow);
+}
+.lesson-section h2 {
+  display: inline-block;
+  border-bottom: 3px solid var(--ink);
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.7rem;
+}
+
+.analogy { color: var(--ink-dark); }
+
+/* Infographic */
+.infographic {
+  border: 3px solid var(--ink-dark);
+  border-radius: 14px;
+  background: var(--paper);
+  width: 100%;
+}
+.infographic-caption { font-size: 0.85rem; margin: 0.5rem 0 0; opacity: 0.85; }
+
+/* Important details */
+.detail {
+  border: 2px dashed var(--ink);
+  border-radius: 12px;
+  padding: 0.5rem 0.8rem;
+  background: #f7faff;
+}
+.detail dt { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-dark); }
+.detail dd { margin: 0; font-size: 1.1rem; }
+
+.reminders { margin: 1rem 0 0; padding-left: 1.3rem; }
+.reminders li { margin-bottom: 0.3rem; }
+.reminders li::marker { color: var(--accent); }
+
+/* Examples */
+.examples { margin: 0; padding-left: 1.3rem; }
+.examples li { margin-bottom: 0.4rem; }
+
+/* Personal notes */
+.notes-box {
+  width: 100%;
+  min-height: 9rem;
+  padding: 0.6rem 0.8rem;
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #fff 0,
+    #fff 27px,
+    var(--rule) 27px,
+    var(--rule) 28px
+  );
+  line-height: 28px;
+  resize: vertical;
+}
+.save-status { font-size: 0.85rem; min-height: 1.2em; margin: 0.3rem 0 0; }
+.save-status.is-error { color: var(--accent); font-weight: bold; }
+
+/* Review checklist */
+.checklist { list-style: none; margin: 0 0 0.6rem; padding: 0; }
+.checklist li { margin-bottom: 0.45rem; }
+.checklist label { display: flex; gap: 0.6rem; align-items: flex-start; cursor: pointer; }
+.checklist input[type="checkbox"] {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-top: 0.15rem;
+  accent-color: var(--ink);
+  flex: none;
+}
+.checklist input:checked + span { text-decoration: line-through; opacity: 0.7; }
+.checklist-count { font-size: 0.9rem; margin: 0; }
+
+/* My pictures and sketches */
+.picture-tools { margin-bottom: 0.6rem; }
+.choose-btn { cursor: pointer; }
+.sr-only:focus-visible + .choose-btn { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.picture-pending {
+  border: 2px dashed var(--ink);
+  border-radius: 12px;
+  padding: 0.8rem;
+  margin-bottom: 0.6rem;
+  background: #f7faff;
+  display: grid;
+  gap: 0.6rem;
+}
+.picture-preview { max-height: 320px; width: auto; max-width: 100%; border-radius: 8px; border: 2px solid var(--ink); background: #fff; }
+.caption-input {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  border: 2px solid var(--ink);
+  border-radius: 10px;
+  background: #fff;
+}
+.picture-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 0.9rem;
+  margin-top: 0.6rem;
+}
+.gallery-empty { grid-column: 1 / -1; margin: 0; opacity: 0.85; }
+.gallery-item { margin: 0; display: grid; gap: 0.4rem; align-content: start; }
+.gallery-item figcaption { font-size: 0.95rem; }
+.gallery-open { padding: 0; border: 2px solid var(--ink); border-radius: 12px; background: #fff; overflow: hidden; }
+.gallery-img { width: 100%; height: 150px; object-fit: cover; }
+.btn-small { padding: 0.2rem 0.8rem; font-size: 0.9rem; justify-self: start; }
+
+.viewer { border: 3px solid var(--ink); border-radius: 14px; padding: 0.8rem; max-width: 96vw; background: #fff; }
+.viewer::backdrop { background: rgba(15, 42, 107, 0.6); }
+.viewer-img { max-width: 100%; max-height: 80vh; margin: 0 auto 0.6rem; }

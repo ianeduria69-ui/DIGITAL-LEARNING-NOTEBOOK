@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Hand-drawn circuit: a battery, a resistor, the current direction and a voltmeter across the resistor">
+<title>Hand-drawn circuit: a battery, a resistor, the current direction and a voltmeter across the resistor</title>
+<defs>
+  <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves="2" seed="4" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9 z" fill="#2347c5"/></marker>
+  <marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto"><path d="M1,1 L9,5 L1,9 z" fill="#d9480f"/></marker>
+  <style>
+    text { font-family: 'Patrick Hand','Segoe Print','Comic Sans MS','Bradley Hand',cursive; fill: #2347c5; font-size: 20px; }
+    .h { fill: #0f2a6b; font-weight: bold; }
+    .o { fill: #d9480f; font-weight: bold; }
+  </style>
+</defs>
+<rect width="800" height="600" fill="#fffef9"/>
+<g filter="url(#rough)" fill="none" stroke="#0f2a6b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="12" y="12" width="776" height="576" rx="16"/>
+  <path d="M250,72 Q400,84 550,70" stroke-width="3"/>
+</g>
+<text class="h" x="400" y="56" text-anchor="middle" style="font-size:38px">VOLTAGE (V)</text>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" ><path d="M230,250 V130 H560 V215"/><path d="M560,215 V228 L578,238 L542,255 L578,272 L542,289 L560,299 V310"/><path d="M560,310 V400 H230 V272"/><path d="M560,190 H650 V240"/><circle cx="650" cy="268" r="28"/><path d="M650,296 V340 H560"/></g>
+<g filter="url(#rough)" fill="none" stroke="#2347c5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" ><path d="M203,250 H257"/><path d="M215,272 H245"/></g>
+<circle cx="560" cy="190" r="6" fill="#2347c5"/>
+<circle cx="560" cy="340" r="6" fill="#2347c5"/>
+<path d="M300,130 L400,130" fill="none" stroke="#d9480f" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M560,146 L560,180" fill="none" stroke="#d9480f" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M500,400 L400,400" fill="none" stroke="#d9480f" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M230,365 L230,308" fill="none" stroke="#d9480f" stroke-width="5" stroke-linecap="round" marker-end="url(#ao)"/>
+<path d="M606,198 L606,332" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-dasharray="7 6" marker-start="url(#ab)" marker-end="url(#ab)"/>
+<text x="592" y="272" text-anchor="middle" class="h" style="font-size:22px">V</text>
+<text x="650" y="277" text-anchor="middle" class="h" style="font-size:26px">V</text>
+<text x="268" y="247" text-anchor="middle" class="o" style="font-size:32px">+</text>
+<text x="268" y="292" text-anchor="middle" class="h" style="font-size:34px">−</text>
+<g filter="url(#rough)"><circle cx="45" cy="180" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="45" y="187" text-anchor="middle" class="h" style="font-size:19px">1</text>
+<text x="68" y="187" text-anchor="start" class="h" style="font-size:20px">Battery</text>
+<text x="30" y="213" text-anchor="start" class="" style="font-size:20px">(voltage source)</text>
+<path d="M120,222 Q160,245 198,254" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ab)"/>
+<g filter="url(#rough)"><circle cx="330" cy="232" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="330" y="239" text-anchor="middle" class="h" style="font-size:19px">2</text>
+<text x="352" y="239" text-anchor="start" class="h" style="font-size:20px">Resistor</text>
+<text x="352" y="263" text-anchor="start" class="" style="font-size:20px">(the load)</text>
+<path d="M448,252 L534,254" fill="none" stroke="#2347c5" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ab)"/>
+<g filter="url(#rough)"><circle cx="285" cy="166" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="285" y="173" text-anchor="middle" class="h" style="font-size:19px">3</text>
+<text x="308" y="173" text-anchor="start" class="h" style="font-size:20px">Conventional current</text>
+<text x="308" y="197" text-anchor="start" class="" style="font-size:20px">(flows from + to −)</text>
+<g filter="url(#rough)"><circle cx="716" cy="262" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="716" y="269" text-anchor="middle" class="h" style="font-size:19px">4</text>
+<text x="780" y="312" text-anchor="end" class="h" style="font-size:20px">Voltmeter</text>
+<text x="780" y="336" text-anchor="end" class="" style="font-size:20px">reads V</text>
+<g filter="url(#rough)" fill="none" stroke="#0f2a6b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" ><rect x="30" y="425" width="740" height="150" rx="14"/></g>
+<g filter="url(#rough)"><circle cx="60" cy="456" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="463" text-anchor="middle" class="h" style="font-size:19px">1</text>
+<text x="86" y="462" text-anchor="start" class="" style="font-size:20px">Battery = the voltage source. It gives charges energy (the push).</text>
+<g filter="url(#rough)"><circle cx="60" cy="490" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="497" text-anchor="middle" class="h" style="font-size:19px">2</text>
+<text x="86" y="496" text-anchor="start" class="" style="font-size:20px">Resistor = the load. It uses the energy (light, heat, motion).</text>
+<g filter="url(#rough)"><circle cx="60" cy="524" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="531" text-anchor="middle" class="h" style="font-size:19px">3</text>
+<text x="86" y="530" text-anchor="start" class="" style="font-size:20px">Conventional current flows from + to − outside the battery.</text>
+<g filter="url(#rough)"><circle cx="60" cy="558" r="14" fill="#fff" stroke="#0f2a6b" stroke-width="3"/></g><text x="60" y="565" text-anchor="middle" class="h" style="font-size:19px">4</text>
+<text x="86" y="564" text-anchor="start" class="" style="font-size:20px">A voltmeter goes across (in parallel with) the resistor to read V.</text>
+</svg>

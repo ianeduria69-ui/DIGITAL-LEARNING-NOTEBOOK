@@ -1,0 +1,87 @@
+/* layout.css — where things sit on the page, and how they change on a phone. */
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--ink-dark);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  z-index: 10;
+}
+.skip-link:focus { left: 0; }
+
+.app-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  padding: 0.7rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.2rem 1rem 2.5rem;
+}
+.container:focus { outline: none; }
+.container h1:focus { outline: none; }
+
+.app-footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+}
+
+/* Home page: grid of subject cards */
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.1rem;
+  margin-top: 1rem;
+}
+
+/* Subject page: list of lessons */
+.lesson-list {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+/* Lesson page */
+.lesson-page { display: grid; gap: 1.3rem; }
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.8rem;
+  margin: 0;
+}
+
+.lesson-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+/* Phone adjustments */
+@media (max-width: 600px) {
+  html { font-size: 17px; }
+  h1 { font-size: 1.6rem; }
+  .container { padding: 0.9rem 0.8rem 2rem; }
+  .lesson-nav .btn { flex: 1 1 100%; text-align: center; }
+}
